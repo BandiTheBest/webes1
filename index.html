@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="E:\!!!!Infós anyag\Egyetem\TANTÁRGYAK\Kötelező\Webes megoldások\beadando_1\gamepad.png">
+        <title>Kő - Papír - Olló</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Kő - Papír - Olló</h1>
+    
+    <div class="choices">
+        <button onclick="playGame('kő')">🗿</button>
+        <button onclick="playGame('papír')">📃</button>
+        <button onclick="playGame('olló')">✂️</button>
+    </div>
+
+    <div id="playerDisplay">Játékos: </div>
+    <div id="computerDisplay">Gép: </div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Játékos pontjai: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Gép pontjai: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
